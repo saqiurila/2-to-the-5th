@@ -1,0 +1,21 @@
+html, body {margin:0;padding:0;height:100%;}
+div:before, div:after {
+    content:'';
+    display:block;
+    position:absolute;
+}
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    & > div {
+        display: inline-block;
+    }
+}
+.word {
+    & > div {
+      display:inline-block;
+    }
+}

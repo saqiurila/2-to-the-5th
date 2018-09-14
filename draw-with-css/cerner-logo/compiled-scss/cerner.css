@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+div:before, div:after {
+  content: '';
+  display: block;
+  position: absolute; }
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%); }
+  .centered > div {
+    display: inline-block; }
+
+.word > div {
+  display: inline-block; }
+
+.letter-c-capital {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  top: -9px;
+  margin-left: -35px; }
+  .letter-c-capital:before {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 80px 50px, transparent 21px, #0d94d2 21px, #0d94d2 35px, transparent 1px);
+    -webkit-transform: rotate(31deg);
+    transform: rotate(31deg); }
+  .letter-c-capital:after {
+    border-style: solid;
+    border-width: 13px 0px;
+    border-color: transparent;
+    border-top-color: #0d94d2;
+    width: 20px;
+    bottom: -24px;
+    margin-left: 63px;
+    -webkit-transform: skewX(-30deg);
+    transform: skewX(-30deg); }
+
+/*# sourceMappingURL=cerner.css.map */

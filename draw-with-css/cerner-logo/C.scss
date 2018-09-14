@@ -1,0 +1,27 @@
+// cerner_2^5_2018
+
+@import 'common';
+
+.letter-c-capital {
+    @include size(90px, 90px);
+    position: relative;
+    top: -9px;
+    margin-left: -35px;
+    &:before {
+        @include size();
+        background: radial-gradient(circle at 80px 50px, transparent 21px, $cerner_blue 21px, $cerner_blue 35px, transparent 1px);
+        -webkit-transform: rotate(31deg);
+        transform: rotate(31deg);
+    }
+    &:after {
+        border-style: solid;
+        border-width: 13px 0px;
+        border-color: transparent;
+        border-top-color:$cerner_blue;
+        width: 20px;
+        bottom: -24px;
+        margin-left:63px;
+        -webkit-transform: skewX(-30deg);
+        transform: skewX(-30deg);
+    }
+}
