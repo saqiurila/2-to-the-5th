@@ -43,4 +43,22 @@ div:before, div:after {
     -webkit-transform: skewX(-30deg);
     transform: skewX(-30deg); }
 
+.letter-r {
+  width: 35px;
+  height: 49px;
+  position: relative;
+  top: 3px;
+  background: linear-gradient(to right, #0d94d2 13px, transparent 13px);
+  background-position: 7px; }
+  .letter-r:before {
+    width: 42px;
+    height: 49px;
+    background: radial-gradient(circle at bottom right, transparent 14px, #0d94d2 14px, #0d94d2 20px, transparent 20px);
+    background-position: -8px -22px; }
+  .letter-r:after {
+    width: 42px;
+    height: 49px;
+    background: radial-gradient(circle at bottom right, transparent 8px, #0d94d2 8px, #0d94d2 15px, transparent 15px);
+    background-position: -8px -34px; }
+
 /*# sourceMappingURL=cerner.css.map */

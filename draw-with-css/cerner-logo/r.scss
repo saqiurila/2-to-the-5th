@@ -1,0 +1,19 @@
+// cerner_2^5_2018
+
+.letter-r{
+    @include size(35px,49px);
+    position:relative;
+    top:3px;
+    background: linear-gradient(to right, $cerner_blue 13px, transparent 13px);
+    background-position: 7px;
+    &:before{
+        @include size(42px, 49px);
+        background:radial-gradient(circle at bottom right, transparent 14px, $cerner_blue 14px,$cerner_blue 20px,transparent 20px);
+        background-position:-8px -22px;
+    }
+    &:after{
+        @include size(42px, 49px);
+        background:radial-gradient(circle at bottom right, transparent 8px, $cerner_blue 8px,$cerner_blue 15px,transparent 15px);
+        background-position:-8px -34px;
+    }
+}
