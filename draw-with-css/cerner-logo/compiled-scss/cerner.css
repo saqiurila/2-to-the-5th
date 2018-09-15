@@ -43,6 +43,34 @@ div:before, div:after {
     -webkit-transform: skewX(-30deg);
     transform: skewX(-30deg); }
 
+.letter-e {
+  width: 48px;
+  height: 70px;
+  position: relative;
+  left: 3px;
+  background: radial-gradient(circle at bottom, transparent 12px, #0d94d2 12px, #0d94d2 24px, transparent 1px), linear-gradient(to bottom, transparent 30px, transparent 60px, #0d94d2 60px, #0d94d2 70px);
+  background-position: 0px -22px,-2px -14px; }
+  .letter-e:before {
+    top: -25px;
+    left: -52px;
+    width: 90px;
+    height: 90px;
+    background: radial-gradient(circle at 82px 48px, transparent 12px, #0d94d2 12px, #0d94d2 24px, transparent 1px);
+    transform: rotate(31deg);
+    -webkit-transform: rotate(31deg);
+    margin-top: 7px; }
+  .letter-e:after {
+    top: 70px;
+    left: 18px;
+    border-style: solid;
+    border-width: 11px 0px;
+    border-color: transparent;
+    border-top-color: #0d94d2;
+    width: 18px;
+    margin-top: -9px;
+    -webkit-transform: skewX(-30deg);
+    transform: skewX(-30deg); }
+
 .letter-r {
   width: 35px;
   height: 49px;
