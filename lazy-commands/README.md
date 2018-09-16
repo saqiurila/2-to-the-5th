@@ -11,9 +11,9 @@ I learned a bit about shell scripting when trying to set up ibus dev env with ka
 ## Commands
 |        | Command        |  What it does  |
 | :----: |:--------------:| -------------- |
-| 🇲🇦🇻🇪🇳  | lz -mi         | mvn clean install |
+| Maven  | lz -mi         | mvn clean install |
 |        | lz -me         | mvn eclipse:eclipse |
-| 🇬🇮🇹     | lz -gc --"msg" | Stage the changed files and commit |
+| Git    | lz -gc --"msg" | Stage the changed files and commit |
 |        | lz -gp --"msg" | Stage the changed files, commit and push |
 
 
