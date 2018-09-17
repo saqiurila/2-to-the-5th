@@ -1,6 +1,14 @@
 $cerner_blue: rgba(13,148,210,1);
+$cerner_blue_light: rgba(34,159,213,1);
+$cerner_green: rgba(144,200,60,1);
+$cerner_green_light: rgba(214,222,39,1);
 
 @mixin size($width: 100%, $height: 100%) {
   width: $width;
   height: $height;
+}
+
+@mixin position($left:0, $top:0) {
+  left:$left;
+  top:$top;
 }

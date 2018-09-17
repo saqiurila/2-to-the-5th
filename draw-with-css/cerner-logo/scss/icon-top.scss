@@ -1,0 +1,29 @@
+// cerner_2^5_2018
+.cerner-icon {
+    @include size(130px, 150px); position:relative;
+    &:before {
+        @include size(100%, 50px); @include position(-1px, 10px); border-bottom-left-radius: 26px 40px; transform: rotate(-4deg);
+        background: radial-gradient(circle at 50px 68px, transparent 34px, $cerner_blue_light 34px, $cerner_blue_light 50px, transparent 50px);
+    }
+    &:after {
+        @include size(100%, 47px); left:-1px; bottom:0px; border-top-left-radius: 12px 20px; transform: rotate(3deg);
+        background: radial-gradient(circle at 50px -22px, transparent 34px, $cerner_blue_light 34px, $cerner_blue_light 50px, transparent 50px); background-position: 0 -46px;
+    }
+    .cerner-icon-stripe-top {
+        @include size(103px, 29px); position:absolute; @include position(13px, 62px); border-bottom-left-radius: 80px 70px;
+        background: radial-gradient(circle at 40% -390px,transparent 400px,$cerner_green 400px,$cerner_green 416px,transparent 416px); background-position: 0 -4px;
+        &:before {
+            @include size(50px,30px); @include position(-19px, 2px); transform:rotate(35deg);
+            background: radial-gradient(circle at center -1px, $cerner_green 18px, transparent 1px); background-position:-5px 0;
+        }
+        &:after {
+            border:12px solid transparent; border-bottom-color:$cerner_green; top:-12px; right:-10px; transform:rotate(-53deg);
+        }
+        .cerner-icon-stripe-shade{
+            transform:rotate(-50deg); @include position(-1px, -18px);
+            &:after{
+                @include position(-32px, 42px); @include size(90px, 16px); transform:rotate(50deg);
+            }
+        }
+    }
+}

@@ -89,4 +89,59 @@ div:before, div:after {
     background: radial-gradient(circle at bottom right, transparent 8px, #0d94d2 8px, #0d94d2 15px, transparent 15px);
     background-position: -8px -34px; }
 
+.cerner-icon {
+  width: 130px;
+  height: 150px;
+  position: relative; }
+  .cerner-icon:before {
+    width: 100%;
+    height: 50px;
+    left: -1px;
+    top: 10px;
+    border-bottom-left-radius: 26px 40px;
+    transform: rotate(-4deg);
+    background: radial-gradient(circle at 50px 68px, transparent 34px, #229fd5 34px, #229fd5 50px, transparent 50px); }
+  .cerner-icon:after {
+    width: 100%;
+    height: 47px;
+    left: -1px;
+    bottom: 0px;
+    border-top-left-radius: 12px 20px;
+    transform: rotate(3deg);
+    background: radial-gradient(circle at 50px -22px, transparent 34px, #229fd5 34px, #229fd5 50px, transparent 50px);
+    background-position: 0 -46px; }
+  .cerner-icon .cerner-icon-stripe-top {
+    width: 103px;
+    height: 29px;
+    position: absolute;
+    left: 13px;
+    top: 62px;
+    border-bottom-left-radius: 80px 70px;
+    background: radial-gradient(circle at 40% -390px, transparent 400px, #90c83c 400px, #90c83c 416px, transparent 416px);
+    background-position: 0 -4px; }
+    .cerner-icon .cerner-icon-stripe-top:before {
+      width: 50px;
+      height: 30px;
+      left: -19px;
+      top: 2px;
+      transform: rotate(35deg);
+      background: radial-gradient(circle at center -1px, #90c83c 18px, transparent 1px);
+      background-position: -5px 0; }
+    .cerner-icon .cerner-icon-stripe-top:after {
+      border: 12px solid transparent;
+      border-bottom-color: #90c83c;
+      top: -12px;
+      right: -10px;
+      transform: rotate(-53deg); }
+    .cerner-icon .cerner-icon-stripe-top .cerner-icon-stripe-shade {
+      transform: rotate(-50deg);
+      left: -1px;
+      top: -18px; }
+      .cerner-icon .cerner-icon-stripe-top .cerner-icon-stripe-shade:after {
+        left: -32px;
+        top: 42px;
+        width: 90px;
+        height: 16px;
+        transform: rotate(50deg); }
+
 /*# sourceMappingURL=cerner.css.map */
