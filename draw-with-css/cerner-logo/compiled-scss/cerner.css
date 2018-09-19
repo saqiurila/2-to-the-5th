@@ -89,6 +89,25 @@ div:before, div:after {
     background: radial-gradient(circle at bottom right, transparent 8px, #0d94d2 8px, #0d94d2 15px, transparent 15px);
     background-position: -8px -34px; }
 
+.letter-n {
+  width: 50px;
+  height: 49px;
+  position: relative;
+  top: 3px;
+  left: -2px;
+  background: linear-gradient(to right, #0d94d2 13px, transparent 13px), radial-gradient(circle at left bottom, transparent 6px, #0d94d2 6px, #0d94d2 19px, transparent 19px);
+  background-position: 7px, 30px -30px; }
+  .letter-n:before {
+    width: 42px;
+    height: 49px;
+    background: radial-gradient(circle at bottom right, transparent 11px, #0d94d2 11px, #0d94d2 20px, transparent 20px), radial-gradient(circle at bottom right, transparent 8px, #0d94d2 8px, #0d94d2 15px, transparent 15px);
+    background-position: -11px -25px, -10px  -34px; }
+  .letter-n:after {
+    width: 13px;
+    height: 49px;
+    right: 1px;
+    background: linear-gradient(to bottom, transparent 17px, #0d94d2 17px, #0d94d2 44px); }
+
 .cerner-icon {
   width: 130px;
   height: 150px;

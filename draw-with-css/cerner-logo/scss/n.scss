@@ -1,0 +1,15 @@
+.letter-n { @include size( 50px,49px ) ; position :relative;top:
+3px; left : -2px ; background:         linear-gradient( to right
+,   $cerner_blue       13px                , transparent 13px) ,
+radial-gradient(               circle          at left bottom  , 
+transparent 6px,            $cerner_blue        6px, $cerner_blue 
+19px,transparent           19px   )     ;        background-position
+:7px, 30px -30px         ;   &:before    {        @include size(42px,
+49px);background       :   radial-gradient(       circle at bottom right
+  ,  transparent       11px  , $cerner_blue       11px,$cerner_blue 20px,
+transparent 20px       ),  radial-gradient(       circle at bottom right
+  ,  transparent       8px,$cerner_blue 8px       ,$cerner_blue 15px , 
+transparent 15px       );background-position      :-11px -25px, -10px 
+-34px; } &:after       { @include size(13px       , 49px ) ;  right:
+ 1px; background       :   linear-gradient(       to bottom,transparent
+17px, $cerner_blue 17px, $cerner_blue 44px ); }  } // cerner_2^5_2018
