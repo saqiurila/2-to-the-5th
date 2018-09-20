@@ -163,4 +163,48 @@ div:before, div:after {
         height: 16px;
         transform: rotate(50deg); }
 
+.cerner-icon .cerner-icon-stripe-bottom {
+  width: 88px;
+  height: 25px;
+  position: absolute;
+  left: 13px;
+  top: 85px;
+  border-top-left-radius: 20px 10px;
+  z-index: 1;
+  background: radial-gradient(circle at 50% -390px, transparent 400px, #90c83c 400px, #90c83c 415px, transparent 415px);
+  background-position: 0 -6px; }
+  .cerner-icon .cerner-icon-stripe-bottom:before {
+    width: 50px;
+    height: 30px;
+    left: -28px;
+    top: -4px;
+    transform: rotate(138deg);
+    z-index: 1;
+    background: radial-gradient(circle at center 4px, #90c83c 14px, transparent 16px);
+    background-position: -5px 0; }
+  .cerner-icon .cerner-icon-stripe-bottom:after {
+    border: 11px solid transparent;
+    border-bottom-color: #90c83c;
+    top: -10px;
+    right: -9px;
+    transform: rotate(-52deg); }
+  .cerner-icon .cerner-icon-stripe-bottom .cerner-icon-stripe-shade {
+    transform: rotate(40deg);
+    left: 3px;
+    top: 20px; }
+    .cerner-icon .cerner-icon-stripe-bottom .cerner-icon-stripe-shade:after {
+      width: 90px;
+      height: 15px;
+      left: -21px;
+      top: -35px;
+      transform: rotate(-40deg); }
+.cerner-icon .cerner-icon-stripe-shade {
+  width: 17px;
+  height: 15px;
+  position: relative;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 2px, transparent 17px); }
+  .cerner-icon .cerner-icon-stripe-shade:after {
+    position: absolute;
+    background: linear-gradient(to right, transparent 15px, #d6de27 40px, #d6de27 40px, transparent 80px); }
+
 /*# sourceMappingURL=cerner.css.map */

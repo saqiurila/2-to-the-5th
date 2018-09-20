@@ -1,0 +1,28 @@
+// cerner_2^5_2018
+.cerner-icon { 
+    .cerner-icon-stripe-bottom {
+        @include size(88px, 25px); position:absolute; @include position(13px, 85px); border-top-left-radius:20px 10px; z-index:1;
+        background: radial-gradient(circle at 50% -390px,transparent 400px,$cerner_green 400px,$cerner_green 415px,transparent 415px); background-position: 0 -6px;
+        &:before {
+            @include size(50px,30px); @include position(-28px, -4px); transform:rotate(138deg); z-index:1;
+            background: radial-gradient(circle at center 4px, $cerner_green 14px, transparent 16px); background-position:-5px 0;
+        }
+        &:after{
+            border:11px solid transparent; border-bottom-color:$cerner_green; top:-10px; right:-9px; transform:rotate(-52deg);
+        }
+        .cerner-icon-stripe-shade{
+            transform:rotate(40deg); @include position(3px, 20px);
+            &:after{
+                @include size(90px, 15px); @include position(-21px, -35px); transform:rotate(-40deg);
+            }
+        }
+    }
+    .cerner-icon-stripe-shade{
+        @include size(17px, 15px); position:relative;
+        background: linear-gradient(to right, rgba(0,0,0,.4) 2px, transparent 17px);
+        &:after{
+            position:absolute;
+            background: linear-gradient(to right, transparent 15px, $cerner_green_light 40px, $cerner_green_light 40px, transparent 80px);
+        }
+    }
+}
