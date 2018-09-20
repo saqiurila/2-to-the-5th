@@ -3,4 +3,5 @@
 ## Submissions:
 ### [Draw cerner logo with css](draw-with-css/cerner-logo) (Day 1 - 3, 5 - 7)
 ### [Lazy command line](lazy-commands) (Day 4)
+### [Website shortcuts](chrome-extensionsspeed-dial) (Day 8)
 
