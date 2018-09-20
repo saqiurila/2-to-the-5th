@@ -1,0 +1,20 @@
+{
+    "name": "Speed Dial",
+    "version": "1.0",
+    "description": "Adds keyboard shorcuts to the work-related websites that I use frequently, opens them in a new tab",
+    "permissions": [
+        "*://*/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "jquery-3.3.1.min.js",
+                "speed-dial.js"
+            ]
+        }
+    ],
+    "manifest_version": 2
+}

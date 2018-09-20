@@ -1,3 +1,5 @@
+
+# Lazy Commands
 Shortens common maven and git commands.
 
 I learned a bit about shell scripting while trying to set up ibus dev env with kamino, so in this practice project I used what I learned to make the commands we use everyday more concise.
