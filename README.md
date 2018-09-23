@@ -2,6 +2,8 @@
 32 Days, 32 Lines or Less
 ## Submissions:
 ### [Draw cerner logo with css](draw-with-css/cerner-logo) (Day 1 - 3, 5 - 7)
-### [Lazy command line](lazy-commands) (Day 4)
+### [Lazy commands](lazy-commands) 
+* [Shorten git and mvn](lazy-commands/lazy.sh) (Day 4)
+* [Simplify killing port](lazy-commands/kill_port.sh) (Day 10)
 ### [Website shortcuts](chrome-extensions/speed-dial) (Day 8)
 ### [BF Compiler](bf/BFCompiler) (Day 9)
