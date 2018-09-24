@@ -1,0 +1,23 @@
+{
+    "name": "Prankster",
+    "version": "1.0",
+    "description": "Mess with people in chrome",
+    "permissions": [
+        "*://*/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "css": [
+                "messer.css"
+            ],
+            "js": [
+                "jquery-3.3.1.min.js",
+                "prankster.js"
+            ]
+        }
+    ],
+    "manifest_version": 2
+}

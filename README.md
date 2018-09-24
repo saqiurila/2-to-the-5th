@@ -5,5 +5,7 @@
 ### [Lazy commands](lazy-commands) 
 * [Shorten git and mvn](lazy-commands/lazy.sh) (Day 4)
 * [Simplify killing port](lazy-commands/kill_port.sh) (Day 10)
-### [Website shortcuts](chrome-extensions/speed-dial) (Day 8)
+### [Chrome Extensions](chrome-extensions)
+* [Website shortcuts](chrome-extensions/speed-dial) (Day 8)
+* [Prank colleagues](chrome-extensions/prankster) (Day 11)
 ### [BF Compiler](bf/BFCompiler) (Day 9)
