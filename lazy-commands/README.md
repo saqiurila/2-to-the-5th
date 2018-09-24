@@ -21,3 +21,8 @@ I learned a bit about shell scripting while trying to set up ibus dev env with k
 
 <br>
 [1] Simple commands can be given aliases directly
+
+## Demo
+* Kill Port
+
+  ![](kill-port.png)
