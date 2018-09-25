@@ -9,3 +9,4 @@
 * [Website shortcuts](chrome-extensions/speed-dial) (Day 8)
 * [Prank colleagues](chrome-extensions/prankster) (Day 11)
 ### [BF Compiler](bf/BFCompiler) (Day 9)
+### [Music Generator](music-generator) (Day 12)

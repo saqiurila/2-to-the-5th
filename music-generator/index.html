@@ -1,0 +1,18 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="music_generator.js"></script>
+</head>
+<body>
+    <div>
+        <button onclick="generate()">🔄 Generate New Speed</button>
+        <button onclick="clearInterval(interval)">&#9724;</button>
+        🎵 Speed: one note/rest per <span id="speed">∞</span>ms 🎵
+    </div>
+    <br>
+    <audio controls class="player"></audio>
+    <audio controls class="player"></audio>
+    <audio controls class="player"></audio>
+    <audio controls class="player"></audio>
+</body>
+</html>
