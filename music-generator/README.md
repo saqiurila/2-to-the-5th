@@ -1,6 +1,6 @@
 # Music Generator
 
-[Live Demo.](https://saqiurila.github.io/projects/music-generator/)
+[Live Demo.](https://saqiurila.github.io/projects/music-generator/) (Unlike testing in local, I realized that there are some delays at the beginning in live demo. Probably because it's not loading the audio files until they are to be played.)
 
 Randomly generates music! As I was doing research on composition, I thought it might be nice to have a program like this to spark something in your head.
 
