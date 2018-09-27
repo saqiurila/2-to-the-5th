@@ -12,3 +12,5 @@
 ### [Music Generator](music-generator) (Day 12)
 ### [Jenkins](jenkins-pipeline)
 * [Echo with time stamp](jenkins-pipeline/util/echoWithTimeStamp.groovy) (Day 13)
+### Algorithms(algorithm)
+* [Count bits for a range](algorithm/Bits.java) (Day 14)
