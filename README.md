@@ -12,6 +12,7 @@
 ### [Music Generator](music-generator) (Day 12)
 ### [Jenkins](jenkins-pipeline)
 * [Echo with time stamp](jenkins-pipeline/util/echoWithTimeStamp.groovy) (Day 13)
+* [Print changeset messages](jenkins-pipeline/util/printChangeSet.groovy) (Day 17)
 ### [Test methods with generated test data](quick-check)
 * [Integer generator](quick-check/IntGenerator.java) (Day 15)
 * [Method Tester](quick-check/IntQuickCheck.java) (Day 16)
