@@ -20,3 +20,4 @@
 * [Method Tester](quick-check/IntQuickCheck.java) (Day 16)
 ### [Algorithms](algorithm)
 * [Count bits for a range](algorithm/Bits.java) (Day 14)
+* [Good ol' binary search](algorithm/BinarySearch.java) (Day 20)
