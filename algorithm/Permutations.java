@@ -3,6 +3,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+// cerner_2^5_2018
 public class Permutations {
     /**
      * Input: 2^5
