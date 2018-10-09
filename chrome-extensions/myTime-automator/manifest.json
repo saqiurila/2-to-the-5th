@@ -1,0 +1,20 @@
+{
+    "name": "myTime",
+    "version": "1.0",
+    "description": "Automate myTime",
+    "permissions": [
+        "*://*/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "jquery-3.3.1.min.js",
+                "myTime.js"
+            ]
+        }
+    ],
+    "manifest_version": 2
+}

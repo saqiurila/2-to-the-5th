@@ -10,6 +10,7 @@
 ### [Chrome Extensions](chrome-extensions)
 * [Website shortcuts](chrome-extensions/speed-dial) (Day 8)
 * [Prank colleagues](chrome-extensions/prankster) (Day 11)
+* [Automate myTime](chrome-extensions/myTime-automator) (Day 26)
 ### [BF Compiler](bf/BFCompiler) (Day 9)
 ### [Music Generator](music-generator) (Day 12)
 ### [Jenkins](jenkins-pipeline)
