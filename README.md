@@ -27,3 +27,4 @@
 * [Calculate x<sup>y</sup>](algorithm/Math.java) (Day 23)
 * [Permutations of string](algorithm/Permutations.java) (Day 24)
 * [Reverse bits](algorithm/ReverseBits.java) (Day 25)
+* [Reverse linked list](algorithm/ReverseLinkedList.java) (Day 27)
