@@ -7,6 +7,7 @@
 * [Simplify killing port](lazy-commands/kill_port.sh) (Day 10)
 * [Go back to git repo root directory](lazy-commands/to_git_root.sh) (Day 18)
 * [Change java and maven version in current bash](lazy-commands/modify_jdk_mvn_version.bashrc) (Day 19)
+* [Checkout a pull request](lazy-commands/checkout_pull_request.bashrc) (Day 28)
 ### [Chrome Extensions](chrome-extensions)
 * [Website shortcuts](chrome-extensions/speed-dial) (Day 8)
 * [Prank colleagues](chrome-extensions/prankster) (Day 11)
