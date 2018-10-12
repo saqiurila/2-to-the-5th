@@ -29,3 +29,4 @@
 * [Permutations of string](algorithm/Permutations.java) (Day 24)
 * [Reverse bits](algorithm/ReverseBits.java) (Day 25)
 * [Reverse linked list](algorithm/ReverseLinkedList.java) (Day 27)
+* [Count prime numbers](algorithm/CountPrimes.java) (Day 29)
