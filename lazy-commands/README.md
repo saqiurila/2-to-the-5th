@@ -34,16 +34,16 @@ I learned a bit about shell scripting while trying to set up ibus dev env with k
 ## Demo
 * Kill Port
 
-  ![](kill-port.png)
+  ![](img/kill-port.png)
 
 * Go back to git repo root
 
-  ![](to-git-root.png)
+  ![](img/to-git-root.png)
 
 * Change java and maven version in current bash
 
-  ![](modify-jdk-mvn-version.png)
+  ![](img/modify-jdk-mvn-version.png)
 
 * Checkout a pull request into a pr branch
 
-  ![](checkout_pull_request.png)
+  ![](img/checkout_pull_request.png)
