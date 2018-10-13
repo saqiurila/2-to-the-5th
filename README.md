@@ -30,3 +30,4 @@
 * [Reverse bits](algorithm/ReverseBits.java) (Day 25)
 * [Reverse linked list](algorithm/ReverseLinkedList.java) (Day 27)
 * [Count prime numbers](algorithm/CountPrimes.java) (Day 29)
+* [Print with D](algorithm/friday.d) (Day 30)
