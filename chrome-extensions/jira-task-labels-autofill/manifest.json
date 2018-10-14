@@ -1,0 +1,20 @@
+{
+    "name": "Jira Task Labels",
+    "version": "1.0",
+    "description": "Aufofill the label field when creating subtasks",
+    "permissions": [
+        "*://*/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "jquery-3.3.1.min.js",
+                "jira_label.js"
+            ]
+        }
+    ],
+    "manifest_version": 2
+}
