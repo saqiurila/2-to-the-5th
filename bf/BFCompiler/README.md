@@ -1,6 +1,6 @@
 # BF Compiler
 
-The implementation was a bit more complicated than I anticipated, so the [formatted code](BFCompiler.java) became just a teensy bit longer than 32 lines. In result I had to squeeze just the main logic in my [submission](logic/BFCompiler.java).
+The implementation turned out to be a bit more complicated than I anticipated, so the [formatted code](BFCompiler.java) became just a teensy bit longer than 32 lines. In result I had to squeeze just the main logic in my [submission](logic/BFCompiler.java).
 
 <br>
 Input: ++++[>++[>+++++++>++++++<<-]<-]>>++.>---.----.
